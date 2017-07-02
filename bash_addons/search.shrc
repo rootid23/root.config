@@ -1,0 +1,14 @@
+search_global() {
+  #find . -follow -name '*.h' -or -name '*.cpp' | xargs grep -n "$1"
+  find . -follow -name '*'  | xargs grep -n "$1"
+}
+
+searchi_global() {
+  #find . -follow -name '*.h' -or -name '*.cpp' | xargs grep -in "$1"
+  find . -follow -name '*' | xargs grep -in "$1"
+}
+
+alias sg=search_global
+alias sig=searchi_global
+
+# vim: ts=2 sts=2 sw=2 et nospell : 

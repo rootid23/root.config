@@ -1,0 +1,108 @@
+.
+├── bash_addons
+│   ├── ack.shrc
+│   ├── default.shrc
+│   ├── git.shrc
+│   ├── search.shrc
+│   └── trash.shrc
+├── daily.sh
+├── docs
+│   ├── GITHUBREADME.md
+│   ├── good_reads.md
+│   └── vim.md
+├── dot_conf
+│   ├── ackrc.conf
+│   ├── gitconfig.conf
+│   ├── tmux.conf.conf
+│   └── vimrc.conf
+├── git_config
+│   └── gitignore
+├── git_hooks
+│   ├── commit-msg
+│   ├── post-commit
+│   ├── pre-commit
+│   └── prepare-commit-msg
+├── index.lst
+├── makefile
+├── old_makefile.mk
+├── README.txt
+├── reference.txt
+├── shell_config
+│   └── mybash.sh
+├── ssh_config
+├── ultisnips_snippets
+│   ├── all.snippets
+│   ├── cpp.snippets
+│   ├── c.snippets
+│   ├── html.snippets
+│   ├── javascript-angular.snippets
+│   ├── javascript-node.snippets
+│   ├── javascript.snippets
+│   ├── java.snippets
+│   └── sh.snippets
+├── vi_bin
+│   ├── clean_log.sh
+│   ├── cleanpom
+│   │   ├── maven-4.0.0.xsd
+│   │   └── maven_only_keys.xml
+│   ├── cleanup_jv_target.sh
+│   ├── get_all_dep_ver.py
+│   ├── install_node.sh
+│   ├── json_dep_resolver.py
+│   ├── sample_as.sh
+│   └── update_gitignore.sh
+├── vim_autoload
+│   ├── foldsearch
+│   │   └── foldsearch.vim
+│   ├── pathogen.vim
+│   └── vim_snippets.vim
+├── vim_bundles
+│   ├── daily
+│   │   ├── editorconfig-vim
+│   │   ├── ultisnips
+│   │   ├── vim-abolish
+│   │   ├── vim-autoformat
+│   │   ├── vim-commentary
+│   │   ├── vim-fugitive
+│   │   ├── vim-repeat
+│   │   ├── vim-sensible
+│   │   ├── vim-snippets
+│   │   └── vim-surround
+│   └── pipeline
+│       └── vim-scriptease
+├── vim_colors
+│   ├── cake.vim
+│   ├── github.vim
+│   └── solarized.vim
+├── vim_config
+└── vim_scripts
+    ├── add_blank_line.vim
+    ├── append_mode_line.vim
+    ├── check_file_type.vim
+    ├── python_script.vim
+    └── vim_addons
+        ├── clang-format.py
+        ├── cscope.conf.vim
+        ├── ctags.conf.vim
+        ├── ctrpl.conf.vim
+        ├── default.vim
+        ├── dev.null.vim
+        ├── ext.vim
+        ├── filetype.conf.vim
+        ├── fold.vim
+        ├── hard.reset.vim
+        ├── indexed.search.vim
+        ├── load.pathogen.vim
+        ├── my.custom.vim
+        ├── mylearn.vim
+        ├── neocomplete.conf.vim
+        ├── nerdtree.conf.vim
+        ├── omnicomplete.conf.vim
+        ├── solarized.color.vim
+        ├── spell.check.vim
+        ├── tabularize.conf.vim
+        ├── tern.conf.vim
+        ├── titlecase.vim
+        └── tlist.conf.vim
+
+30 directories, 75 files

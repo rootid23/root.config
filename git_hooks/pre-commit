@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git config user.name ${GIT_USER_NAME}
+git config user.email ${GIT_USER_EMAIL}
+
+echo "Updated git user.name= (GIT_USER_EMAIL) and user.email = $GIT_USER_EMAIL (GIT_USER_EMAIL)"
+
+# vim : nospell et

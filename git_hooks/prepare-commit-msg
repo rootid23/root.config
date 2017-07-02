@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+which perl 2>/dev/null
+
+if [ ${?} -ne 0 ]
+then 
+  echo "Please install perl"
+fi
+
+story_no=`[ ! -z ${GIT_TAG} ] && echo $GIT_TAG || echo "master"`
+echo "commit tag -- $story_no, override with var $GIT_TAG"
+#perl -i.bak -ne 's/^/[$ENV{'story_no'}] /; print' "$1" ;
+sed -i.bak -e "1s/^/[$story_no] /" $1
+
+# vim: ts=2 sts=2 sw=2 et nospell : 
