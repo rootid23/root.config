@@ -1,9 +1,10 @@
 [diff]
   tool = vimdiff
+
 [core]
   compression = 0
   editor = vim
-  excludesfile = ~/vi2.config/git_config/gitignore
+  excludesfile = ${PWD}/git_config/gitignore
 
 [merge]
   tool = vimdiff
