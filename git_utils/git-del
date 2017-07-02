@@ -1,0 +1,3 @@
+#!/bin/sh
+#cleans the blob/files from the repository
+git status | grep 'deleted' | awk {'print $(3)'} | xargs git rm
