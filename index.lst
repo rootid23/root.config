@@ -9,6 +9,7 @@
 ├── docs
 │   ├── GITHUBREADME.md
 │   ├── good_reads.md
+│   ├── ssh_agent_and_ssh_add.md
 │   └── vim.md
 ├── dot_conf
 │   ├── ackrc.conf
@@ -22,6 +23,28 @@
 │   ├── post-commit
 │   ├── pre-commit
 │   └── prepare-commit-msg
+├── git_utils
+│   ├── git-add_remote
+│   ├── git-addremove
+│   ├── git-cleanup
+│   ├── git-cleanup-features
+│   ├── git-del
+│   ├── git-echo
+│   ├── git-incoming
+│   ├── git-index
+│   ├── git-last
+│   ├── git-outgoing
+│   ├── git-patch
+│   ├── git-pull-request
+│   ├── git-rank-contributors
+│   ├── git-rebase-features
+│   ├── git-rm-conflicts
+│   ├── git-show_graph
+│   ├── git-switch
+│   ├── git-unwip
+│   ├── git-wip
+│   ├── git-wtf
+│   └── README.txt
 ├── index.lst
 ├── makefile
 ├── old_makefile.mk
@@ -50,7 +73,9 @@
 │   ├── install_node.sh
 │   ├── json_dep_resolver.py
 │   ├── sample_as.sh
-│   └── update_gitignore.sh
+│   ├── start_local_git_web_server.sh
+│   ├── update_gitignore.sh
+│   └── update_index_lst.sh
 ├── vim_autoload
 │   ├── foldsearch
 │   │   └── foldsearch.vim
@@ -76,6 +101,7 @@
 │   └── solarized.vim
 ├── vim_config
 └── vim_scripts
+    ├── 7_habbits_eff_text_edit.vim
     ├── add_blank_line.vim
     ├── append_mode_line.vim
     ├── check_file_type.vim
@@ -105,4 +131,4 @@
         ├── titlecase.vim
         └── tlist.conf.vim
 
-30 directories, 75 files
+31 directories, 100 files
