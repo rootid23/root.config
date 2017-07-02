@@ -11,6 +11,8 @@
 [init]
 
 [alias]
+  #check-whitespaces
+  check-whitespace = !git diff-tree --check $(git hash-object -t tree /dev/null) HEAD
   #List the changed files
   cf = "!git status --porcelain | awk '{print $2}'"
   stat = status
